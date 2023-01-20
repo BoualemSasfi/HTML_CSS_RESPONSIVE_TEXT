@@ -2,9 +2,17 @@
 .test{
 padding: 50px;
 }
-
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
+/* If the screen size is 901px wide or more */
+@media screen and (min-width: 901px){
+  .container a {
+    font-size: 80px;
+  }
+  .container p {
+    font-size: 30px;
+  }
+}
+/* If the screen size is between 601px and 900px */
+@media screen and (min-width: 601px)and(max-width: 900px) {
   .container a {
     font-size: 60px;
   }
