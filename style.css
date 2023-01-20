@@ -4,7 +4,7 @@ padding: 50px;
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .container a {
     font-size: 30px;
   }
@@ -14,7 +14,7 @@ padding: 50px;
 }
 
 /* If the screen size is between 601px and 700px */
-@media screen and (min-width: 601px) and (max-width: 700px) {
+@media only screen and (min-width: 601px) and (max-width: 700px) {
   .container a {
     font-size: 60px;
   }
@@ -24,7 +24,7 @@ padding: 50px;
 }
 
 /* If the screen size is 701px wide or more */
-@media screen and (min-width: 701px){
+@media only screen and (min-width: 701px){
   .container a {
     font-size: 80px;
   }
