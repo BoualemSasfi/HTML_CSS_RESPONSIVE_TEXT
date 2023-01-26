@@ -7,6 +7,7 @@ padding: 50px;
 @media only screen and (max-width: 600px) {
   .container a {
     font-size: 40px;
+    color:blue;
   }
   .container p {
     font-size: 20px;
@@ -17,6 +18,7 @@ padding: 50px;
 @media only screen and (min-width: 601px) and (max-width: 700px) {
   .container a {
     font-size: 60px;
+    color:blue;
   }
   .container p {
     font-size: 25px;
@@ -27,6 +29,7 @@ padding: 50px;
 @media only screen and (min-width: 701px){
   .container a {
     font-size: 80px;
+    color:blue;
   }
   .container p {
     font-size: 30px;
